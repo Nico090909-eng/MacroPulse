@@ -1,1 +1,12 @@
 node_modules/
+
+=======
+.DS_Store
+
+# production
+/dist
+
+# misc
+.env
+
+
