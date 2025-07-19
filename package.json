@@ -9,8 +9,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "scrape:calendar": "node scripts/forexFactoryScraper.js"
-=======
+    "scrape:calendar": "node scripts/forexFactoryScraper.js",
     "test": "vitest"
   },
   "dependencies": {
