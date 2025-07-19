@@ -1,5 +1,20 @@
 # MacroPulse
 
+
+Ce projet est une interface Vite + React. Pour démarrer en mode développement :
+
+```bash
+npm run dev
+```
+
+## Tests
+
+Des tests unitaires basés sur **Vitest** sont disponibles. Pour les exécuter :
+
+```bash
+npm run test
+```
+=======
 MacroPulse est un tableau de bord web dédié au suivi et à l'analyse des tendances macroéconomiques. Construit avec **React**, **TypeScript** et **Vite**, il agrège des indicateurs économiques clés, les principaux évènements géopolitiques et des analyses de marché pour offrir une vision d'ensemble aux analystes et passionnés de macro.
 
 ## Objectifs du projet
