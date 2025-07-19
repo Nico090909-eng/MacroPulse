@@ -1,4 +1,6 @@
 node_modules/
+
+=======
 .DS_Store
 
 # production
@@ -6,4 +8,5 @@ node_modules/
 
 # misc
 .env
+
 

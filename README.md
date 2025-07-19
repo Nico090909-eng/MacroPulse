@@ -1,5 +1,18 @@
 # MacroPulse
 
+This project is a React-based dashboard for macroeconomic analysis.
+
+## Calendar Data Scraper
+
+To update the economic calendar with recent events from ForexFactory, run:
+
+```bash
+npm run scrape:calendar
+```
+
+The script fetches data for last week, the current week and next week,
+and writes the result to `src/data/economicCalendar.ts`.
+=======
 
 Ce projet est une interface Vite + React. Pour démarrer en mode développement :
 
@@ -65,5 +78,3 @@ Une démonstration est disponible à l'adresse suivante : [MacroPulse Demo](http
 ---
 
 Projet initialisé à partir d'un modèle **Vite React TypeScript** avec prise en charge de **TailwindCSS**.
-
-

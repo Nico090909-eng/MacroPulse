@@ -9,6 +9,8 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
+    "scrape:calendar": "node scripts/forexFactoryScraper.js"
+=======
     "test": "vitest"
   },
   "dependencies": {
@@ -19,7 +21,10 @@
     "lucide-react": "^0.344.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "recharts": "^3.1.0"
+    "recharts": "^3.1.0",
+    "node-fetch": "^3.3.2",
+    "cheerio": "^1.0.0-rc.12",
+    "fast-xml-parser": "^4.2.5"
   },
   "devDependencies": {
     "@eslint/js": "^9.9.1",
