@@ -1,34 +1,16 @@
 # MacroPulse
 
-This project is a React-based dashboard for macroeconomic analysis.
+MacroPulse est un tableau de bord web dédié au suivi et à l'analyse des tendances macroéconomiques. Construit avec **React**, **TypeScript** et **Vite**, il agrège des indicateurs économiques clés, les principaux évènements géopolitiques et des analyses de marché pour offrir une vision d'ensemble aux analystes et passionnés de macro.
 
-## Calendar Data Scraper
+## Mise à jour du calendrier
 
-To update the economic calendar with recent events from ForexFactory, run:
+Pour actualiser les évènements économiques depuis ForexFactory, exécutez&nbsp;:
 
 ```bash
 npm run scrape:calendar
 ```
 
-The script fetches data for last week, the current week and next week,
-and writes the result to `src/data/economicCalendar.ts`.
-=======
-
-Ce projet est une interface Vite + React. Pour démarrer en mode développement :
-
-```bash
-npm run dev
-```
-
-## Tests
-
-Des tests unitaires basés sur **Vitest** sont disponibles. Pour les exécuter :
-
-```bash
-npm run test
-```
-=======
-MacroPulse est un tableau de bord web dédié au suivi et à l'analyse des tendances macroéconomiques. Construit avec **React**, **TypeScript** et **Vite**, il agrège des indicateurs économiques clés, les principaux évènements géopolitiques et des analyses de marché pour offrir une vision d'ensemble aux analystes et passionnés de macro.
+Le script récupère les données de la semaine passée, de la semaine actuelle et de la semaine suivante puis écrit le résultat dans `src/data/economicCalendar.ts`.
 
 ## Objectifs du projet
 
